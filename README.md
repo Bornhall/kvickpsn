@@ -1,5 +1,7 @@
 # KvickPSN
 
+***DO NOTE: THIS CODE WILL VERY LIKELY NO LONGER WORK***
+
 A simple class for subscribing to PSN threads using a logged in PSN account.
 
 Needs a valid PSN id (i.e. the alphanumeric PSN account *name*, up to 16 characters in length) and the corresponding PSN account id (numerical) in kvickpsn.php, and for the first log in you will need to supply the `authenticate()` method with a valid npsss code. Subsequent logins will not need to `authenticate()` unless the refresh token expires, and only then do you need to supply a new npsso code to `authenticate()`.
